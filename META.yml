@@ -1,0 +1,44 @@
+---
+abstract: 'Simple utility to find perl modules dependencies recursively in your project.'
+author:
+  - 'dani remeseiro, <daniel.remeseiro at gmail dot com<gt>'
+build_requires:
+  Test::More: 0.98
+configure_requires:
+  CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
+  Module::Build: 0.38
+dynamic_config: 0
+generated_by: 'Minilla/v0.11.0, CPAN::Meta::Converter version 2.133380'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: App-Dependencio
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+    - author
+    - builder
+provides:
+  App::Dependencio:
+    file: lib/App/Dependencio.pm
+    version: 0.03
+requires:
+  Cwd: 0
+  File::Find: 0
+  IO::File: 0
+  Term::ANSIColor: 0
+  perl: 5.008001
+resources:
+  bugtracker: https://github.com/jipipayo/Dependencio/issues
+  homepage: https://github.com/jipipayo/Dependencio
+  repository: git://github.com/jipipayo/Dependencio.git
+version: 0.03
+x_contributors:
+  - 'Daniel Remeseiro <daniel.remeseiro@gmail.com>'

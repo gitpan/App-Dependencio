@@ -4,7 +4,7 @@
       "dani remeseiro, <daniel.remeseiro at gmail dot com<gt>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.11.0, CPAN::Meta::Converter version 2.133380",
+   "generated_by" : "Minilla/v0.11.0",
    "license" : [
       "perl_5"
    ],
@@ -56,19 +56,24 @@
          }
       }
    },
-   "release_status" : "unstable",
+   "provides" : {
+      "App::Dependencio" : {
+         "file" : "lib/App/Dependencio.pm",
+         "version" : "0.03"
+      }
+   },
+   "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
          "web" : "https://github.com/jipipayo/Dependencio/issues"
       },
       "homepage" : "https://github.com/jipipayo/Dependencio",
       "repository" : {
-         "type" : "git",
          "url" : "git://github.com/jipipayo/Dependencio.git",
          "web" : "https://github.com/jipipayo/Dependencio"
       }
    },
-   "version" : "0.02",
+   "version" : "0.03",
    "x_contributors" : [
       "Daniel Remeseiro <daniel.remeseiro@gmail.com>"
    ]

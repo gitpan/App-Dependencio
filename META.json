@@ -1,0 +1,75 @@
+{
+   "abstract" : "Simple utility to find perl modules dependencies recursively in your project.",
+   "author" : [
+      "dani remeseiro, <daniel.remeseiro at gmail dot com<gt>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v0.11.0, CPAN::Meta::Converter version 2.133380",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "App-Dependencio",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author",
+         "builder"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "CPAN::Meta" : "0",
+            "CPAN::Meta::Prereqs" : "0",
+            "Module::Build" : "0.38"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion" : "0.10108",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Cwd" : "0",
+            "File::Find" : "0",
+            "IO::File" : "0",
+            "Term::ANSIColor" : "0",
+            "perl" : "5.008001"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0.98"
+         }
+      }
+   },
+   "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/jipipayo/Dependencio/issues"
+      },
+      "homepage" : "https://github.com/jipipayo/Dependencio",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/jipipayo/Dependencio.git",
+         "web" : "https://github.com/jipipayo/Dependencio"
+      }
+   },
+   "version" : "0.02",
+   "x_contributors" : [
+      "Daniel Remeseiro <daniel.remeseiro@gmail.com>"
+   ]
+}

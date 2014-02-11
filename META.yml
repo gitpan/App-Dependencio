@@ -28,8 +28,9 @@ no_index:
 provides:
   App::Dependencio:
     file: lib/App/Dependencio.pm
-    version: 0.03
+    version: 0.04
 requires:
+  App::Cmd::Simple: 0
   Cwd: 0
   File::Find: 0
   IO::File: 0
@@ -39,6 +40,6 @@ resources:
   bugtracker: https://github.com/jipipayo/Dependencio/issues
   homepage: https://github.com/jipipayo/Dependencio
   repository: git://github.com/jipipayo/Dependencio.git
-version: 0.03
+version: 0.04
 x_contributors:
   - 'Daniel Remeseiro <daniel.remeseiro@gmail.com>'

@@ -1,9 +1,12 @@
 Revision history for Perl extension Dependencio
 
-0.03 2014-02-10T21:14:01Z
+0.04 2014-02-11T19:15:55Z
 
 0.02 2014-02-10T20:06:45Z
 
     - original version
 0.03 2014-02-10T21:02:00Z
     - this is the first initial version
+0.04 2014-02-11T20:15:03Z
+    -fixed install dependencies
+

@@ -48,6 +48,7 @@
             "File::Find" : "0",
             "IO::File" : "0",
             "Term::ANSIColor" : "0",
+            "Text::Trim" : "0",
             "perl" : "5.008001"
          }
       },
@@ -60,7 +61,7 @@
    "provides" : {
       "App::Dependencio" : {
          "file" : "lib/App/Dependencio.pm",
-         "version" : "0.04"
+         "version" : "0.05"
       }
    },
    "release_status" : "stable",
@@ -74,7 +75,7 @@
          "web" : "https://github.com/jipipayo/Dependencio"
       }
    },
-   "version" : "0.04",
+   "version" : "0.05",
    "x_contributors" : [
       "Daniel Remeseiro <daniel.remeseiro@gmail.com>"
    ]

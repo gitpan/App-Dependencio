@@ -1,9 +1,7 @@
 Build.PL
 Changes
 LICENSE
-MANIFEST
 META.json
-README
 README.md
 cpanfile
 lib/App/Dependencio.pm
@@ -12,3 +10,4 @@ script/dependencio
 t/00_compile.t
 t/Tests.pm
 META.yml
+MANIFEST
